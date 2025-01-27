@@ -1,0 +1,39 @@
+.home-container h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.categories-list h2 {
+    margin: 15px;
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.categories-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.categories-list-item {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (width <= 560px) {
+    .category-card {
+        width: 350px;
+    }
+}

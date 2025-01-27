@@ -1,0 +1,22 @@
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1000px;
+    width: 95%;
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.recipe-container h1 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.recipe-container h3 {
+    margin: 5px;
+}
+
+.recipe-container p {
+    margin: 5px;
+}
